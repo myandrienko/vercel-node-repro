@@ -1,0 +1,13 @@
+{
+  "name": "vercel-node-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc index.ts --noEmit"
+  },
+  "dependencies": {
+    "@vercel/node": "^1.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
